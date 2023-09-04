@@ -1,3 +1,3 @@
 # Velocity - Frontend
 
-This repository contains the source code of the backend server for Project Velocity.
+This repository contains the source code of the frontend of the Velocity project, based on Windows Forms.
