@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velocity.Frontend", "src\Velocity.Frontend.csproj", "{87DE96D2-BD95-4275-A194-D61FE58C317B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velocity.Frontend", "src\Velocity.Frontend\Velocity.Frontend.csproj", "{87DE96D2-BD95-4275-A194-D61FE58C317B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velocity.Shared", "src\Velocity.Shared\src\Velocity.Shared.csproj", "{83CBAE40-372E-44A5-9610-324A22EB5C26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,13 @@ Global
 		{87DE96D2-BD95-4275-A194-D61FE58C317B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87DE96D2-BD95-4275-A194-D61FE58C317B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87DE96D2-BD95-4275-A194-D61FE58C317B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CBAE40-372E-44A5-9610-324A22EB5C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CBAE40-372E-44A5-9610-324A22EB5C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CBAE40-372E-44A5-9610-324A22EB5C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CBAE40-372E-44A5-9610-324A22EB5C26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A935E7D-7C08-4131-9B22-792C0138EA67} = {D58C93F9-5266-46C3-B374-F8F4F34E2A34}
+		{83CBAE40-372E-44A5-9610-324A22EB5C26} = {1A935E7D-7C08-4131-9B22-792C0138EA67}
 	EndGlobalSection
 EndGlobal

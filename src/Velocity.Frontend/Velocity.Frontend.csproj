@@ -7,4 +7,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <Target Name="SetupSharedProject" BeforeTargets="BeforeCompile">
+    <Exec Command="git submodule update --init --recursive" />
+  </Target>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Velocity.Shared\src\Velocity.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
