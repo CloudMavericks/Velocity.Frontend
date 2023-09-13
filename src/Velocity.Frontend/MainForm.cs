@@ -21,5 +21,33 @@ namespace Velocity.Frontend
         {
             Application.Exit();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked_1(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void customerVendorMasterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new CustomerForm();
+            form.MdiParent = this;
+            form.WindowState = FormWindowState.Maximized;
+            form.Show();
+        }
     }
 }
